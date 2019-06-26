@@ -1,0 +1,56 @@
+@import 'variables';
+@import 'header';
+@import 'navigation';
+@import 'text-style';
+@import 'footer';
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.clearfloat {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  float: none;
+  height: 0;
+  width: 0;
+  border: 0 none;
+  line-height: 0;
+}
+
+/*The Main body*/
+body {
+  background: $bgcolor-light;
+
+  #main {
+    width: 1200px;
+    margin: auto;
+    background-color: $bgcolor-light;
+
+    aside {
+      float: left;
+      width: 30%;
+      padding: 15px;
+      background: $bgcolor;
+    }
+
+    section {
+      float: right;
+      width: 65%;
+      padding: 5px;
+      p {
+        .blue{
+          text-transform: uppercase;
+          color: blue;
+        }
+      }
+    }
+  }
+}
+
+
+/*The End of the body*/
+

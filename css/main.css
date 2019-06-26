@@ -1,0 +1,81 @@
+header {
+  background-color: #FFF0F5;
+  padding: 0 15px; }
+  header a {
+    text-decoration: none;
+    color: black; }
+
+#nav {
+  padding: 5px;
+  box-shadow: 2px 11px 22px 1px rgba(0, 0, 0, 0.57); }
+  #nav ul {
+    padding: 10px; }
+    #nav ul li {
+      display: inline-block; }
+      #nav ul li a {
+        text-decoration: none;
+        color: black;
+        padding: 10px 20px 10px 20px; }
+
+h1 {
+  text-transform: Uppercase;
+  font-family: "Vollkorn SC", serif;
+  color: black; }
+
+.title {
+  width: 100%;
+  background-color: #FFF0F5;
+  text-align: center;
+  padding: 25px; }
+
+h2 {
+  font-family: "Vollkorn SC", serif;
+  text-transform: Uppercase; }
+
+h3 {
+  font-family: "Vollkorn SC", serif; }
+
+footer {
+  background-color: slategrey;
+  height: 200px;
+  width: 100%;
+  float: left; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+.clearfloat {
+  font-size: 0;
+  margin: 0;
+  padding: 0;
+  clear: both;
+  float: none;
+  height: 0;
+  width: 0;
+  border: 0 none;
+  line-height: 0; }
+
+/*The Main body*/
+body {
+  background: white; }
+  body #main {
+    width: 1200px;
+    margin: auto;
+    background-color: white; }
+    body #main aside {
+      float: left;
+      width: 30%;
+      padding: 15px;
+      background: #FFF0F5; }
+    body #main section {
+      float: right;
+      width: 65%;
+      padding: 5px; }
+      body #main section p .blue {
+        text-transform: uppercase;
+        color: blue; }
+
+/*The End of the body*/
+
+/*# sourceMappingURL=main.css.map */

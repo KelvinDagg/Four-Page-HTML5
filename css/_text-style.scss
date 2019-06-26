@@ -1,0 +1,30 @@
+@import 'variables';
+
+h1 {
+  text-transform: Uppercase;
+  font-family: $heading-font;
+  color: black;
+}
+
+.title {
+  width: 100%;
+  background-color: $bgcolor;
+  text-align: center;
+  padding: 25px;
+}
+
+
+
+h2 {
+  font-family: $heading-font;
+  text-transform: Uppercase;
+}
+
+h3 {
+  font-family: $heading-font;
+}
+
+h4 {}
+
+h5 {}
+

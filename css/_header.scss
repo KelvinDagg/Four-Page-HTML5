@@ -1,0 +1,11 @@
+@import 'variables';
+
+header {
+  background-color: $bgcolor;
+  padding: 0 15px;
+
+    a{
+      text-decoration: none;
+      color: black;
+    }
+}
