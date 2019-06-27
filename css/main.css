@@ -1,6 +1,10 @@
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 header {
   background-color: #FFF0F5;
@@ -10,10 +14,12 @@ header {
     color: black; }
 
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 #nav {
   padding: 5px;
-  box-shadow: 6px 8px 35px 1px rgba(0, 0, 0, 0.57); }
+  box-shadow: 6px 36px 28px -17px rgba(0, 0, 0, 0.57); }
   #nav ul {
     padding: 10px; }
     #nav ul li {
@@ -29,6 +35,8 @@ header {
           color: white; }
 
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 h1 {
   text-transform: Uppercase;
@@ -61,7 +69,10 @@ blockquote {
   padding: 25px;
   font-family: "Muli", sans-serif;
   background: aliceblue;
-  box-shadow: 6px 8px 35px 1px rgba(0, 0, 0, 0.57); }
+  box-shadow: 18px 24px 28px -16px rgba(0, 0, 0, 0.57);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, black, #fff) 3 25%; }
   .midList li {
     list-style-type: disc;
     padding: 5px; }
@@ -70,6 +81,8 @@ blockquote {
       color: black; }
 
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 footer {
   background-color: slategrey;
@@ -104,12 +117,17 @@ footer {
       width: 30%; }
 
 /*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
 /*Text Variables*/
 /*The Images SASS file*/
 .img-container {
   padding: 15px;
   background-color: white;
-  box-shadow: 6px 8px 35px 1px rgba(0, 0, 0, 0.57);
+  box-shadow: 18px 24px 28px -16px rgba(0, 0, 0, 0.57);
+  border-width: 2px;
+  border-style: solid;
+  border-image: linear-gradient(to right, black, #fff) 3 25%;
   text-align: center; }
   .img-container .sec-img {
     width: 90%; }
@@ -146,6 +164,10 @@ body {
       background: #FFF0F5; }
       body #main aside p > a {
         text-decoration: none; }
+      body #main aside .title {
+        border-width: 2px;
+        border-style: solid;
+        border-image: linear-gradient(to right, black, #fff) 3 25%; }
     body #main section {
       float: left;
       width: 66%;

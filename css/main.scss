@@ -40,6 +40,12 @@ body {
       p > a {
         text-decoration: none;
       }
+
+      .title {
+        border-width: 2px;
+        border-style: solid;
+        border-image: $grad-border;
+      }
     }
 
     section {

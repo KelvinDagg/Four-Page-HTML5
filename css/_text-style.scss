@@ -42,7 +42,10 @@ blockquote {
   padding: 25px;
   font-family: $para-font;
   background: aliceblue;
-  box-shadow: $bgshadow;
+  box-shadow: $boxshadow;
+  border-width: 2px;
+  border-style: solid;
+  border-image: $grad-border;
   li {
     list-style-type: disc;
     padding: 5px;

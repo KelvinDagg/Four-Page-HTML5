@@ -3,7 +3,10 @@
 .img-container {
   padding: 15px;
   background-color: white;
-  box-shadow: $bgshadow;
+  box-shadow: $boxshadow;
+  border-width: 2px;
+  border-style: solid;
+  border-image: $grad-border;
   text-align: center;
 
   .sec-img {
