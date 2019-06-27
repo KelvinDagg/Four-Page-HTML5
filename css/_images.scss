@@ -1,0 +1,17 @@
+@import 'variables';
+/*The Images SASS file*/
+.img-container {
+  padding: 15px;
+  background-color: white;
+  box-shadow: $bgshadow;
+  text-align: center;
+
+  .sec-img {
+    width: 90%;
+  }
+}
+
+.html-logo {
+  width: 100%;
+}
+

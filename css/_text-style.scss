@@ -17,14 +17,40 @@ h1 {
 
 h2 {
   font-family: $heading-font;
-  text-transform: Uppercase;
+  font-size: 2rem;
 }
 
 h3 {
   font-family: $heading-font;
 }
 
-h4 {}
+h4 {
+  font-family: $heading-font;
+}
 
 h5 {}
 
+p {
+  font-family: $para-font;
+}
+
+blockquote {
+  text-align: center;
+}
+
+.midList {
+  padding: 25px;
+  font-family: $para-font;
+  background: aliceblue;
+  box-shadow: $bgshadow;
+  li {
+    list-style-type: disc;
+    padding: 5px;
+    a {
+      text-decoration: none;
+      color: black;
+    }
+  }
+
+
+}

@@ -4,6 +4,53 @@ footer {
   background-color: slategrey;
   height: 200px;
   width: 100%;
-  float: left;
-  
+
+    .foot-cont {
+      width: 1200px;
+      margin: auto;
+
+      .botNav {
+        float: left;
+        width: 30%;
+
+          a {
+            display: block;
+            text-decoration: none;
+            color: black;
+            font-size: 20px;
+            padding: 10px;
+          }
+      }
+
+      .social {
+        width: 30%;
+        text-align: center;
+        margin: auto;
+
+          .fa-envelope {
+            width: 25%;
+          }
+
+          .fa-facebook-square {
+            width: 25%;
+          }
+
+          .fa-linkedin {
+            width: 25%;
+          }
+
+          .fa-twitter-square {
+            width: 25%;
+          }
+      }
+
+      .disclaimer {
+        float: right;
+        width: 30%;
+
+        p {
+
+        }
+    }
+    }
 }

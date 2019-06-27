@@ -3,6 +3,7 @@
 @import 'navigation';
 @import 'text-style';
 @import 'footer';
+@import 'images';
 
 * {
   padding: 0;
@@ -35,12 +36,16 @@ body {
       width: 30%;
       padding: 15px;
       background: $bgcolor;
+
+      p > a {
+        text-decoration: none;
+      }
     }
 
     section {
-      float: right;
-      width: 65%;
-      padding: 5px;
+      float: left;
+      width: 66%;
+      padding: 15px 0 15px 10px;
       p {
         .blue{
           text-transform: uppercase;
