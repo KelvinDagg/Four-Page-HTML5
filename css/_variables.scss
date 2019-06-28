@@ -1,14 +1,15 @@
 /*Color Variables*/
 
-$bgcolor: #FFF0F5;
-$bgcolor-light: lighten(#FFF0F5, 20%);
+$bgcolor: #A1E5AB;
+$bgcolor-light: lighten(#ADF6B1, 40%);
+$html-color: #ADF6B1;
 
 /*Shadows*/
 $bgshadow: 6px 36px 28px -17px rgba(0,0,0,0.57);
 $boxshadow: 18px 24px 28px -16px rgba(0,0,0,0.57);
 
 /*Border Variables*/
-$grad-border: linear-gradient(to right, black, #fff) 3 25%;
+$grad-border: linear-gradient(to top, black, #fff) 3 25%;
 
 /*Text Variables*/
 $headings: #AD4C4C;

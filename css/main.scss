@@ -27,7 +27,7 @@ body {
   background: $bgcolor-light;
 
   #main {
-    width: 1200px;
+    width: 1250px;
     margin: auto;
     background-color: $bgcolor-light;
 
@@ -41,17 +41,15 @@ body {
         text-decoration: none;
       }
 
-      .title {
-        border-width: 2px;
-        border-style: solid;
-        border-image: $grad-border;
-      }
+
     }
 
     section {
       float: left;
       width: 66%;
-      padding: 15px 0 15px 10px;
+      padding: 15px 10px 15px 10px;
+      background-color: $html-color;
+
       p {
         .blue{
           text-transform: uppercase;

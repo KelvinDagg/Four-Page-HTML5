@@ -1,11 +1,13 @@
 @import 'variables';
 
 #nav {
-  padding: 5px;
+  padding: 10px;
   box-shadow: $bgshadow;
-
+  border-width: 2px;
+  border-style: solid;
+  border-image: $grad-border;
   ul {
-    padding: 10px;
+    /*padding: 10px;*/
 
     li {
       display: inline-block;
@@ -15,6 +17,8 @@
         text-decoration: none;
         color: black;
         padding: 10px 20px 10px 20px;
+        border-right: 1px solid;
+        border-image: $grad-border;
 
         &:hover {
           background-color: black;
