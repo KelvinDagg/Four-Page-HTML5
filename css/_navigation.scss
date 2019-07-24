@@ -1,13 +1,20 @@
 @import 'variables';
 
+
 #nav {
   padding: 10px;
   box-shadow: $bgshadow;
   border-width: 2px;
   border-style: solid;
   border-image: $grad-border;
+  overflow: hidden;
+  position: sticky;
+  background: aliceblue;
+
   ul {
     /*padding: 10px;*/
+    float: left;
+
     li {
       display: inline-block;
       a {
