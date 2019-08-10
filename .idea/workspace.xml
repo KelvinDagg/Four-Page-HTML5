@@ -2,11 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629ee46c-fdb5-4905-a148-c4c3111cc4c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Four-Page-HTML5.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_contactform.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_contactform.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_footer.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_header.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_navigation.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_navigation.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_variables.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,83 +32,33 @@
       <executable />
     </execution>
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="96">
-              <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
-        <option value="$PROJECT_DIR$/index.html" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1060" />
-  </component>
+  <component name="ProjectId" id="1P5IQ5W9Ty1iMnC6FM7d7AM0LuZ" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Four-Page-HTML5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Four-Page-HTML5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Four-Page-HTML5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-            </path>
-            <path>
-              <item name="Four-Page-HTML5" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
-              <item name="Scratches" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="HTML" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -109,6 +72,16 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="contact.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Four-Page-HTML5/contact.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.contact.html" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -120,61 +93,32 @@
       <option name="presentableId" value="Default" />
       <updated>1561448561006</updated>
       <workItem from="1561448562416" duration="1166000" />
+      <workItem from="1563934264535" duration="3543000" />
+      <workItem from="1564146889910" duration="895000" />
+      <workItem from="1564538941777" duration="55000" />
+      <workItem from="1565157512808" duration="994000" />
+      <workItem from="1565421040902" duration="429000" />
+      <workItem from="1565421496422" duration="6787000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1166000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24966443" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../../Kelvin/Assessments/Front-End Design/05. 4 Page HTML5 Site and Documentation/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

@@ -9,7 +9,9 @@
   border-image: $grad-border;
   overflow: hidden;
   position: sticky;
+  top: 0;
   background: aliceblue;
+  z-index: 2;
 
   ul {
     /*padding: 10px;*/
@@ -29,6 +31,7 @@
 
         &:hover {
           background-color: black;
+          width: 100%;
           color: white;
         }
 
