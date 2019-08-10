@@ -5,11 +5,11 @@
 
 header {
   padding: 30px;
+  position: relative;
   background-image: url("../img/books_bg.jpg");
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 400px;
   overflow: hidden;
   z-index: 4;

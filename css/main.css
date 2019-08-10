@@ -8,11 +8,11 @@
 /*Text Variables*/
 header {
   padding: 30px;
+  position: relative;
   background-image: url("../img/books_bg.jpg");
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
   height: 400px;
   overflow: hidden;
   z-index: 4; }
@@ -38,7 +38,7 @@ header {
   position: sticky;
   top: 0;
   background: aliceblue;
-  z-index: 2; }
+  z-index: 5; }
   #nav ul {
     /*padding: 10px;*/
     float: left; }
@@ -55,7 +55,8 @@ header {
         font-size: 2rem;
         margin-right: .5rem; }
     #nav ul li {
-      display: inline-block; }
+      display: inline-block;
+      margin-top: .3rem; }
       #nav ul li a {
         font-family: "Ovo", serif;
         font-size: 1.5rem;
@@ -77,6 +78,13 @@ h1 {
   text-transform: Uppercase;
   font-family: "Ovo", serif;
   color: #BFC0C0; }
+
+.heading {
+  color: #2D3142;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 50px;
+  left: 75px; }
 
 .title {
   background-color: #EF8354;
@@ -149,7 +157,7 @@ footer {
         display: block;
         text-decoration: none;
         color: #BFC0C0;
-        font-size: 20px;
+        font-size: 16px;
         padding: 10px; }
         footer .foot-cont .botNav a:hover {
           transition: color 450ms;
@@ -159,34 +167,38 @@ footer {
       text-align: center;
       float: left;
       margin: 0;
-      padding-top: 2rem;
+      padding-top: 1rem;
       color: #BFC0C0; }
       footer .foot-cont .social .fa-envelope {
+        padding-top: .5rem;
         width: 25%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #BFC0C0; }
       footer .foot-cont .social .fa-facebook-square {
         width: 25%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #BFC0C0; }
       footer .foot-cont .social .fa-linkedin {
         width: 25%;
-        font-size: 2rem;
+        font-size: 1.8rem;
         color: #BFC0C0; }
       footer .foot-cont .social .fa-twitter-square {
         width: 25%;
-        font-size: 1.75rem;
+        font-size: 1.8rem;
         color: #BFC0C0; }
-      footer .foot-cont .social:hover {
-        transition: color 450ms;
-        color: #EF8354; }
+      footer .foot-cont .social a {
+        text-decoration: none;
+        color: #BFC0C0; }
+        footer .foot-cont .social a:hover, footer .foot-cont .social a i:hover {
+          transition: color 450ms;
+          color: #EF8354; }
     footer .foot-cont .disclaimer {
       float: right;
       width: 30%;
-      padding-top: 2rem;
+      padding-top: 1rem;
       color: #BFC0C0;
       font-family: "Muli", sans-serif;
-      text-align: right;
+      text-align: justify;
       top: 0; }
 
 /*Color Variables*/
@@ -204,6 +216,14 @@ footer {
   text-align: center; }
   .img-container .sec-img {
     width: 90%; }
+
+.img-container-find {
+  padding: 1.5rem;
+  text-align: center; }
+  .img-container-find cite {
+    opacity: .5;
+    color: #2D3142;
+    font-family: "Muli", sans-serif; }
 
 .html-logo {
   width: 100%; }
@@ -344,6 +364,55 @@ footer {
         transform: initial;
         box-shadow: none; } }
 
+/*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
+/*Text Variables*/
+#find-aside {
+  float: left;
+  position: sticky;
+  top: 55px;
+  font-family: "Muli", sans-serif;
+  font-size: 1rem;
+  background-color: #EF8354;
+  width: 17%; }
+  #find-aside ul {
+    list-style-type: none; }
+    #find-aside ul li {
+      margin-bottom: 2rem; }
+      #find-aside ul li a {
+        text-decoration: none;
+        color: #2D3142;
+        padding: 1rem; }
+
+.bestPrac {
+  list-style-type: none;
+  font-family: "Muli", sans-serif; }
+  .bestPrac .dark {
+    background-color: #e5e5e5; }
+  .bestPrac li {
+    padding: 10px; }
+
+/*Color Variables*/
+/*Shadows*/
+/*Border Variables*/
+/*Text Variables*/
+table {
+  width: 100%;
+  font-family: "Muli", sans-serif;
+  border-color: #EF8354;
+  border-spacing: 2px; }
+  table thead tr th {
+    font-size: 1.2rem; }
+  table tbody {
+    text-align: center; }
+    table tbody tr {
+      border-bottom: 5px #EF8354; }
+      table tbody tr td {
+        padding: 10px 20px; }
+    table tbody .dark {
+      background-color: #e5e5e5; }
+
 * {
   padding: 0;
   margin: 0;
@@ -385,6 +454,11 @@ body {
       body #main section p .blue {
         text-transform: uppercase;
         color: blue; }
+    body #main .find-cont {
+      width: 100%;
+      margin: 0 auto;
+      background-color: white;
+      padding-top: 55px; }
 
 /*The End of the body*/
 /*Line Breaks*/

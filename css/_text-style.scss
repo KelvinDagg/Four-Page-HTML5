@@ -7,12 +7,22 @@ h1 {
   color: #BFC0C0;
 }
 
+.heading {
+  color: $primary;
+  font-size: 3rem;
+  position: absolute;
+  bottom: 50px;
+  left: 75px;
+
+}
+
 .title {
   background-color: $fifth;
   text-align: center;
   padding: 25px;
   border-bottom: 1px solid black;
   margin-bottom: 10px;
+
 }
 
 

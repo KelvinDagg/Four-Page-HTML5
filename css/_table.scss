@@ -1,0 +1,34 @@
+@import 'variables';
+@import 'mixins';
+
+table {
+  width: 100%;
+  font-family: $para-font;
+  border-color: #EF8354;
+  border-spacing: 2px;
+
+  thead{
+
+    tr {
+
+      th{
+        font-size: 1.2rem;
+      }
+    }
+  }
+
+  tbody{
+    text-align: center;
+    tr {
+      border-bottom: 5px #EF8354;
+      td {
+        padding: 10px 20px;
+
+      }
+    }
+
+    .dark {
+      background-color: $table-bg;
+    }
+  }
+}

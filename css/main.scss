@@ -6,6 +6,8 @@
 @import 'footer';
 @import 'images';
 @import 'contactform';
+@import 'findNav';
+@import 'table';
 
 * {
   padding: 0;
@@ -63,6 +65,13 @@ body {
           color: blue;
         }
       }
+    }
+
+    .find-cont {
+      width: 100%;
+      margin: 0 auto;
+      background-color: white;
+      padding-top: 55px;
     }
   }
 }

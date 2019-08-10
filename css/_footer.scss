@@ -26,7 +26,7 @@ footer {
             display: block;
             text-decoration: none;
             color: $third;
-            font-size: 20px;
+            font-size: 16px;
             padding: 10px;
 
             &:hover {
@@ -41,46 +41,55 @@ footer {
         text-align: center;
         float: left;
         margin: 0;
-        padding-top: 2rem;
+        padding-top: 1rem;
         color: $third;
 
           .fa-envelope {
+            padding-top: .5rem;
             width: 25%;
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: $third;
           }
 
           .fa-facebook-square {
             width: 25%;
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: $third;
           }
 
           .fa-linkedin {
             width: 25%;
-            font-size: 2rem;
+            font-size: 1.8rem;
             color: $third;
+
           }
 
           .fa-twitter-square {
             width: 25%;
-            font-size: 1.75rem;
+            font-size: 1.8rem;
             color: $third;
+
           }
 
-        &:hover {
-          transition: color 450ms;
-          color: #EF8354;
+        a {
+          text-decoration: none;
+          color: $third;
+
+          &:hover, i:hover{
+            transition: color 450ms;
+            color: #EF8354;
+          }
         }
+
       }
 
       .disclaimer {
         float: right;
         width: 30%;
-        padding-top: 2rem;
+        padding-top: 1rem;
         color: $third;
         font-family: $para-font;
-        text-align: right;
+        text-align: justify;
         top: 0;
 
         p {

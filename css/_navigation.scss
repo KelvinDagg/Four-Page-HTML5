@@ -8,7 +8,7 @@
   position: sticky;
   top: 0;
   background: aliceblue;
-  z-index: 2;
+  z-index: 5;
 
   ul {
     /*padding: 10px;*/
@@ -32,6 +32,7 @@
 
     li {
       display: inline-block;
+      margin-top: .3rem;
       a {
         font-family: $heading-font;
         font-size: 1.5rem;

@@ -1,0 +1,40 @@
+@import 'variables';
+@import 'mixins';
+
+#find-aside {
+  float: left;
+  position: sticky;
+  top: 55px;
+  font-family: $para-font;
+  font-size: 1rem;
+  background-color: #EF8354;
+  width: 17%;
+
+  ul {
+      list-style-type: none;
+    li {
+      margin-bottom: 2rem;
+      a {
+        text-decoration: none;
+        color: $primary;
+        padding: 1rem;
+
+      }
+    }
+  }
+}
+
+.bestPrac {
+  list-style-type: none;
+  font-family: $para-font;
+  .dark {
+    background-color: $table-bg;
+  }
+
+  li {
+    padding: 10px;
+
+  }
+
+
+}
