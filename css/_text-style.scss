@@ -1,13 +1,14 @@
 @import 'variables';
+@import 'mixins';
 
 h1 {
   text-transform: Uppercase;
   font-family: $heading-font;
-  color: black;
+  color: #BFC0C0;
 }
 
 .title {
-  background-color: $bgcolor;
+  background-color: $fifth;
   text-align: center;
   padding: 25px;
   border-bottom: 1px solid black;
@@ -38,19 +39,33 @@ p {
 blockquote {
   padding: 5px;
   text-align: center;
-  background-color: aliceblue;
+  background-color: $fourth;
+
+  > h3 {
+    padding: 15px;
+  }
+
+  > p {
+    padding: 15px;
+  }
+
+  > hr {
+    background-color: black;
+  }
 }
 
 .midList {
   padding: 25px;
   font-family: $para-font;
-  background: aliceblue;
+  background: $fourth;
   box-shadow: $boxshadow;
   border-width: 2px;
   border-style: solid;
   border-image: $grad-border;
+  text-align: center;
+
   li {
-    list-style-type: disc;
+    list-style-type: none;
     padding: 5px;
     a {
       text-decoration: none;

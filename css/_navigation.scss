@@ -1,12 +1,9 @@
 @import 'variables';
-
+@import 'mixins';
 
 #nav {
   padding: 10px;
-  box-shadow: $bgshadow;
-  border-width: 2px;
-  border-style: solid;
-  border-image: $grad-border;
+  box-shadow: $nav-shadow;
   overflow: hidden;
   position: sticky;
   top: 0;
@@ -17,6 +14,22 @@
     /*padding: 10px;*/
     float: left;
 
+      #logo {
+        float: left;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-family: $heading-font;
+        color: $fifth;
+        width: 190px;
+        margin-top: 0;
+
+         i {
+          float: left;
+          font-size: 2rem;
+           margin-right: .5rem;
+        }
+      }
+
     li {
       display: inline-block;
       a {
@@ -26,11 +39,11 @@
         color: black;
         width: 100%;
         padding: 10px 20px 10px 20px;
-        border-right: 1px solid;
-        border-image: $grad-border;
+
 
         &:hover {
-          background-color: black;
+          transition: background-color 450ms;
+          background-color: #EF8354;
           width: 100%;
           color: white;
         }
@@ -39,3 +52,4 @@
     }
   }
 }
+

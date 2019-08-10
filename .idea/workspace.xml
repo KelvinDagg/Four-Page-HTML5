@@ -2,24 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="629ee46c-fdb5-4905-a148-c4c3111cc4c3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_contactform.scssc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/css/_contactform.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_mixins.scssc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/books_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_contactform.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_contactform.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_footer.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_footer.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_header.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_header.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_navigation.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_navigation.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_text-style.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_text-style.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_variables.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/_variables.scssc" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/main.scssc" beforeDir="false" afterPath="$PROJECT_DIR$/css/.sass-cache/fc352b2033a26d3f5e2c5bb46d927b5e3bce3e3e/main.scssc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_contactform.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_contactform.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_footer.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_navigation.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_navigation.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/_text-style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_text-style.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/_variables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/find.html" beforeDir="false" afterPath="$PROJECT_DIR$/find.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/PaymentAdvice_2735720190621000028.pdf" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/media.html" beforeDir="false" afterPath="$PROJECT_DIR$/media.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -58,6 +67,7 @@
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RunDashboard">
@@ -98,7 +108,7 @@
       <workItem from="1564538941777" duration="55000" />
       <workItem from="1565157512808" duration="994000" />
       <workItem from="1565421040902" duration="429000" />
-      <workItem from="1565421496422" duration="6787000" />
+      <workItem from="1565421496422" duration="25404000" />
     </task>
     <servers />
   </component>

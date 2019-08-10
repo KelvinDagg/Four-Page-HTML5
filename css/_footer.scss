@@ -1,52 +1,87 @@
 @import 'variables';
+@import 'mixins';
 
 footer {
-  background-color: slategrey;
-  height: 200px;
+  background-color: #4F5D75;
+  height: 300px;
   width: 100%;
 
     .foot-cont {
-      width: 100%;
+      width: 1250px;
       margin: auto;
 
       .botNav {
         float: left;
         width: 30%;
+        padding-top: .5rem;
+        font-family: $para-font;
+
+        .fa-clone {
+          float: left;
+          font-size: 2rem;
+          margin-right: .5rem;
+        }
 
           a {
             display: block;
             text-decoration: none;
-            color: black;
+            color: $third;
             font-size: 20px;
             padding: 10px;
+
+            &:hover {
+              transition: color 450ms;
+              color: #EF8354;
+            }
           }
       }
 
       .social {
         width: 30%;
         text-align: center;
-        margin: auto;
+        float: left;
+        margin: 0;
+        padding-top: 2rem;
+        color: $third;
 
           .fa-envelope {
             width: 25%;
+            font-size: 2rem;
+            color: $third;
           }
 
           .fa-facebook-square {
             width: 25%;
+            font-size: 2rem;
+            color: $third;
           }
 
           .fa-linkedin {
             width: 25%;
+            font-size: 2rem;
+            color: $third;
           }
 
           .fa-twitter-square {
             width: 25%;
+            font-size: 1.75rem;
+            color: $third;
           }
+
+        &:hover {
+          transition: color 450ms;
+          color: #EF8354;
+        }
       }
 
       .disclaimer {
         float: right;
         width: 30%;
+        padding-top: 2rem;
+        color: $third;
+        font-family: $para-font;
+        text-align: right;
+        top: 0;
 
         p {
 

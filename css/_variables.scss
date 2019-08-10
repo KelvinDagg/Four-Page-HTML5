@@ -1,14 +1,21 @@
 /*Color Variables*/
 
+$primary: #2D3142;
+$secondary: #4F5D75;
+$third: #BFC0C0;
+$fourth: #FFFFFF;
+$fifth: #EF8354;
+
 $bgcolor: #A1E5AB;
-$background: src("img/Vanishing-Stripes.svg");
+$background: url("../img/Vanishing-Stripes.svg");
 $bgcolor-light: lighten(#ADF6B1, 40%);
 $html-color: #ADF6B1;
-$heading-one: #082213;
+$heading-one: #EF8354;
 
 /*Shadows*/
-$bgshadow: 6px 36px 28px -17px rgba(0,0,0,0.57);
-$boxshadow: 18px 24px 28px -16px rgba(0,0,0,0.57);
+$nav-shadow: 0 1px 1.5rem rgba(0,0,0,.1);
+$bgshadow: 6px 36px 28px -17px rgba(0,0,0,0.1);
+$boxshadow: 18px 24px 28px -16px rgba(0,0,0,0.1);
 
 /*Border Variables*/
 $grad-border: linear-gradient(to top, black, #fff) 3 25%;
